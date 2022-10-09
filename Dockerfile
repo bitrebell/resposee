@@ -68,9 +68,9 @@ RUN pip3 install --upgrade pip setuptools
 ENV PATH="/home/bot/bin:$PATH"
 
 # make directory
-RUN mkdir /ichi/
-COPY . /ichi
-WORKDIR /ichi
+RUN mkdir /main.py/
+COPY . /main.py
+WORKDIR /main.py
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
