@@ -1,5 +1,9 @@
 from telegram.ext import *
 import responsre as R
+import telebot
+from dotenv import load_dotenv
+import os
+import requests
 
 photo = "https://te.legra.ph/file/cf00ecd72b3ee934bd87e.jpg"
 # photo2 = "https://te.legra.ph/file/036781df069b478254e37.jpg"
