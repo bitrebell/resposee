@@ -12,9 +12,9 @@ updater = Updater("5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8", use_context=
 
 
 load_dotenv()
-token = "5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8", use_context=True"
+# token = "5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8", use_context=True"
 
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(updater)
 
 # Let's define stuff
 def get_url():
