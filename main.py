@@ -12,7 +12,7 @@ updater = Updater("5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8", use_context=
 
 
 load_dotenv()
-token = 5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8, use_context=True
+token = os.getenv('5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8')
 
 bot = telebot.TeleBot(token)
 
