@@ -8,7 +8,7 @@ import requests
 photo = "https://te.legra.ph/file/cf00ecd72b3ee934bd87e.jpg"
 # photo2 = "https://te.legra.ph/file/036781df069b478254e37.jpg"
 
-updater = Updater("5621512579:AAGhhvBcDNiQ_wfdQwEyVVUzaQMNPL1vDR8", use_context=True)
+updater = Updater("6151806723:AAEOkTGYlhQNPjrUHZAZBUSnIv-qDnTv-LI", use_context=True)
 
 
 load_dotenv()
